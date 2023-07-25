@@ -27,7 +27,7 @@ jobs:
 
     - name: prepare app version
       run: |
-        sed -i 's/#APPVERSION#/'$MYTAG'/g' .main/version.go
+        sed -i 's/#APPVERSION#/'$MYTAG'/g' ./main/version.go
 
     # build in docker
     - name: docker build and push
