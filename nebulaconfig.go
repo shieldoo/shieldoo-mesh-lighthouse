@@ -90,17 +90,7 @@ func NebulaConfigCreate(configdata string) (string, error) {
 	c.Firewall.Inbound = []NebulaYamlConfigFW{
 		{
 			Port:  "any",
-			Proto: "icmp",
-			Host:  "any",
-		},
-		{
-			Port:  "80",
-			Proto: "tcp",
-			Host:  "any",
-		},
-		{
-			Port:  "53",
-			Proto: "udp",
+			Proto: "any",
 			Host:  "any",
 		},
 	}
