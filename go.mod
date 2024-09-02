@@ -11,7 +11,7 @@ require (
 	github.com/miekg/dns v1.1.59
 	github.com/prometheus/client_golang v1.19.0
 	github.com/sirupsen/logrus v1.9.3
-	github.com/slackhq/nebula v1.9.2
+	github.com/slackhq/nebula v1.9.3
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
 )
